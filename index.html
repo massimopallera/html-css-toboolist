@@ -15,30 +15,36 @@
      <!-- MAIN -->
      <main>
         <div class="container">
-            <section>
-                <button>Add Task</button>
-                <button>Add Section</button>
+            <section id="button-area">
+                <button id="add-task-btn">Add Task</button>
+                <button id="add-section-btn">Add Section</button>
             </section>
             <!-- buttons area -->
-             <section>
+             <section id="todo-section">
                 <div id="new_task">
-                    <h3>New Task</h3>
-                    <div>Quarterly Newsletter <span class="tags">Editorial</span></div>
+                    <h3 class="list-sections">New Task</h3>
+                    <ul class="tasks-list">
+                        <li>Quarterly Newsletter <span class="tags editorial">Editorial</span></li>
+                    </ul>
                 </div>
                 <div id="today">
-                    <h3>Today</h3>
-                    <div>Recruiting blog post <span class="tags">Editorial</span></div>
-                    <div>Mobile app launch <span class="tags">Q1 Goals</span></div>
-                    <div>Interview John H. <span class="tags">Recruiting</span></div>
-                    <div>Summit updaet to mobile storefront <span class="tags">Mobile</span></div>
+                    <h3 class="list-sections">Today</h3>
+                    <ul class="tasks-list">
+                        <li>Recruiting blog post <span class="tags editorial">Editorial</span></li>
+                        <li>Mobile app launch <span class="tags q1_goals">Q1 Goals</span></li>
+                        <li>Interview John H. <span class="tags recruiting">Recruiting</span></li>
+                        <li>Summit update to mobile storefront <span class="tags mobile">Mobile</span></li>
+                    </ul>
+                     
                 </div>
                 <div id="upcoming">
-                    <h3>Upcoming</h3>
-                    <div>Schedule meeting with Alex</div>
-                    <div>Homepage refresh<span class="tags">Q1 Goals</span></div>
-                    <div>Onboard new Sales team member <span class="tags">Sales</span></div>
-                    <div>Review editorial calendar <span class="tags">Editorial</span></div>
-
+                    <h3 class="list-sections">Upcoming</h3>
+                    <ul class="tasks-list">
+                        <li>Schedule meeting with Alex</li>
+                        <li>Homepage refresh <span class="tags q1_goals">Q1 Goals</span></li>
+                        <li>Onboard new Sales team member <span class="tags sales">Sales</span></li>
+                        <li>Review editorial calendar <span class="tags editorial">Editorial</span></li>
+                    </ul>
                 </div>
              </section>
              <!-- todo list section -->
