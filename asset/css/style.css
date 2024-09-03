@@ -1,0 +1,36 @@
+:root{
+    --black: #000;
+    --white: #fff;
+    --primary: #fff;
+    --lightgrey: #f6f8f9;
+
+    --accent-editorial: #45abe9;
+    --accent-q1_goals: #9c72e4;
+    --accent-recruiting: #64c0a8;
+    --accent-mobile: #f29e33;
+    --accent-website: #d863a0;
+    --accent-sales: #b0c926;
+
+    --task-bg: #47adf1;
+    --section-button-color: #d1d5d9;
+}
+
+body{
+    background-color: var(--lightgrey);
+    margin: 0;
+}
+
+/* #region  header */
+header{
+    background-color: var(--primary);
+    height: 50px;
+}
+header *{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+}
+/* #endregion  header */
+
+/* #region  main */
+/* #endregion  main */
