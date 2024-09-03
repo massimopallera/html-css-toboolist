@@ -33,4 +33,24 @@ header *{
 /* #endregion  header */
 
 /* #region  main */
+main{
+    margin-top: 50px;
+}
+
+.container{
+    background-color: var(--primary);    
+    width: 60%;
+    margin: auto;
+}
+
+.tags{
+    box-sizing: border-box;
+    font-size: 10px;
+    padding: 1px 4px;
+    display: inline-block;
+    vertical-align: middle;
+    height: 1rem;
+    width: fit-content;
+    border-radius: 25px;
+}
 /* #endregion  main */
